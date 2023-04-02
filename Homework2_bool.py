@@ -56,3 +56,12 @@ baked_tort = True
 print(f'{baked_bread or not baked_tort =}')
 
 print()
+is_full = True
+take_beg = False 
+if is_full:
+    take_beg = True
+else: 
+    take_beg = False 
+    
+print(f'{take_beg =}') 
+print()
